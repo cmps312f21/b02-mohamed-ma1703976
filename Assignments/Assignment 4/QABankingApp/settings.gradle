@@ -15,8 +15,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter()
-        maven { url "https://maven.xyz.com" }
+        jcenter() // Warning: this repository is going to shut down soon
     }
 }
 rootProject.name = "QA-Banking-App"
